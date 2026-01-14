@@ -20,7 +20,7 @@ export async function checkForCliUpdate(
     if (semver.lt(local.version, latest)) {
       return options.message
         ? options.message(local.version, latest)
-        : `Update available: ${local.version} → ${latest}\nRun npm i -g ${local.name}`;
+        : `Update available: ${local.version} → ${latest}\nRun: npm i -g ${local.name}`;
     }
 
     return null;
