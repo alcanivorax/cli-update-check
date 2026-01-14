@@ -1,0 +1,48 @@
+{
+  "name": "cli-update-check",
+  "version": "1.0.0",
+  "description": "Minimal, zero-config update checker for CLI tools",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "dev": "tsx src/index.ts",
+    "build": "tsc"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "cli",
+    "update",
+    "npm",
+    "version"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alcanivorax/cli-update-check"
+  },
+  "author": "alcanivorax",
+  "license": "MIT",
+  "packageManager": "pnpm@10.27.0",
+  "devDependencies": {
+    "@types/node": "^25.0.8",
+    "@types/semver": "^7.7.1",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "semver": "^7.7.3"
+  }
+}
