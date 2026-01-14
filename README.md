@@ -1,8 +1,24 @@
-# cli-update-check
-
-Minimal, zero-config update checker for CLI tools.
+<h1 align="center">cli-update-check</h1>
 
 <br />
+
+<p align="center">Minimal, zero-config update checker for CLI tools.</p>
+
+<p align="center">
+  <img src="https://img.shields.io/npm/v/cli-update-check?color=6366f1" alt="npm version" />
+  <img src="https://img.shields.io/npm/dm/cli-update-check?color=0f172a" alt="npm downloads" />
+  <img src="https://img.shields.io/github/license/alcanivorax/cli-update-check?color=22c55e" alt="license" />
+</p>
+
+<br />
+
+<p align="center">
+  <img
+    src="https://raw.githubusercontent.com/alcanivorax/cli-update-check/main/assets/cli-update-check-preview.png"
+    alt="cli-update-check preview"
+    width="700"
+  />
+</p>
 
 <br />
 
