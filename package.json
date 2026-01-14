@@ -1,6 +1,6 @@
 {
   "name": "cli-update-check",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Minimal, zero-config update checker for CLI tools",
   "type": "module",
   "main": "./dist/index.js",
